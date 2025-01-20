@@ -10,7 +10,7 @@ import os
 import json
 import typing_extensions as typing
 
-genai.configure(api_key="AIzaSyAdrSGf3zIumcKq1yaQmaIzuLXP8kGQzQc")
+genai.configure(api_key="API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(
     history=[
