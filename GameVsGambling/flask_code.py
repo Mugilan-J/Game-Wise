@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyAdrSGf3zIumcKq1yaQmaIzuLXP8kGQzQc")
+genai.configure(api_key="API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(
     history=[
